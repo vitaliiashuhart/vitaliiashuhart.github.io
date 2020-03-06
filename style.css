@@ -107,12 +107,13 @@ h2 {
 h3 {
   text-align: center;
   font-size: 180px;
-  margin-top: -500px;
+  margin-top: -470px;
   animation: 1s linear infinite hahart;
 }
 .image{
   margin-top: -250px;
-  margin-left: 600px;
+  margin-left: -150px;
+  text-align: center;
   
 }
 h4 {
@@ -127,11 +128,13 @@ h5 {
   text-align: center;
   margin-top: -200px;
   animation: 0.5s linear infinite hahart;
+  font-weight: normal;
 }
 h6 {
   font-size: 300px;
   text-align: center;
   animation: 5s linear infinite ooo;
   margin-top: -500px;
+  margin-left: -200px;
 }
 }
