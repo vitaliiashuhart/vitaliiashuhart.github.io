@@ -1,0 +1,137 @@
+@font-face {
+  font-family: MyFont;
+  src:
+ url('https://vitaliiashuhart.github.io/RRRR.ttf');
+}
+
+@keyframes hahart{
+  0% {
+    opacity: 0;
+    color: #F6C6DC
+  }
+  40% {
+    opacity: 0.5;
+    color: #FFADA9;
+  }
+  60% {
+    opacity: 1;
+    color: #78FFF2;
+  }
+  80% {
+    opacity: 0.5;
+    color: #FFFC88;
+  }
+  100% {
+    opacity: 0;
+    color: #F6C6DC;
+  }
+
+}
+
+@keyframes ooo{
+     0% {
+    font-variation-settings: "wght" 400, "wdth" 1000;
+    color: #F6C6DC;
+  }
+  50% {
+    font-variation-settings: "wght" 1000, "wdth" 1000;
+    color: #B4F5FC;
+  }
+  100% {
+     font-variation-settings: "wght" 400, "wdth" 1000;
+    color: #F6C6DC;
+  }
+}
+
+@keyframes alphabet{
+    0% {
+    font-variation-settings: "wght" 400, "wdth" 1000;
+      color: #F6C6DC;
+  }
+  50% {
+    font-variation-settings: "wght" 1000, "wdth" 1000;
+    color: #FFFBB8;
+  }
+  100% {
+     font-variation-settings: "wght" 400, "wdth" 1000;
+    color: #F6C6DC;
+  }
+  
+}
+
+@keyframes banana{
+   0% {
+    font-variation-settings: "wght" 400, "wdth" 1000;
+  }
+  50% {
+    font-variation-settings: "wght" 1000, "wdth" 1000;   
+  }
+  100% {
+     font-variation-settings: "wght" 400, "wdth" 1000;
+  }
+  
+}
+
+@keyframes paper{
+  0% {
+    font-variation-settings: "wght" 400, "wdth" 1000;
+  }
+  50% {
+    font-variation-settings: "wght" 1000, "wdth" 1000;
+  }
+  100% {
+     font-variation-settings: "wght" 400, "wdth" 1000;
+  }
+}
+ body {
+  background-color: #243332;
+  font-family: MyFont;
+  color: #F6C6DC;
+}
+h1 {
+  font-size: 220px;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: -90px;
+  animation: 5s linear infinite paper;
+ 
+}
+h2 {
+  font-size: 200px;
+  text-align: right;
+  margin-top: -400px;
+  margin-right: -60px;
+  animation: 5s linear infinite banana;
+   
+} 
+h3 {
+  text-align: center;
+  font-size: 180px;
+  margin-top: -500px;
+  animation: 1s linear infinite hahart;
+}
+.image{
+  margin-top: -250px;
+  margin-left: 600px;
+  
+}
+h4 {
+  font-size: 150px;
+  text-align: center;
+  margin-top: 0px;
+  color: #FFFBB8;
+  animation: 5s linear infinite alphabet;
+}
+h5 {
+  font-size: 300px;
+  text-align: center;
+  margin-top: -200px;
+  animation: 0.5s linear infinite hahart;
+}
+h6 {
+  font-size: 300px;
+  text-align: center;
+  animation: 5s linear infinite ooo;
+  margin-top: -500px;
+}
+}
